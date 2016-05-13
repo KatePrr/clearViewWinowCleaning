@@ -1,0 +1,26 @@
+{
+  "name": "clear_view",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "pg": "^4.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatePrr/clearViewWinowCleaning.git"
+  },
+  "author": "Kati Lueth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatePrr/clearViewWinowCleaning/issues"
+  },
+  "homepage": "https://github.com/KatePrr/clearViewWinowCleaning#readme"
+}
