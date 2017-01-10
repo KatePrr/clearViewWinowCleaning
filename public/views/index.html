@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Clear View Windows</title>
+
+    <!--fonts-->
+    <!--links css-->
+    <link rel="stylesheet" href="/styles/css/index.css" />
+    <!--links dependencies scripts-->
+    <script type="text/javascript" src="vendors/angular.min.js"></script>
+    <script type="text/javascript" src="vendors/angular-route.min.js"></script>
+    <!--links client-side scripts-->
+    <script type="text/javascript" src="scripts/client-app.js"></script>
+    <!--links controllers-->
+    <script type="text/javascript" src="scripts/controllers/homeController.js"></script>
+    <!--bootstrap IF Included-->
+</head>
+
+<body ng-app="myApp">
+
+    <nav ng-include="'/templates/nav.html'"></nav>
+    <div>
+        <main ng-view></main>
+    </div>
+    <footer ng-include="'/templates/footer.html'"></footer>
+
+</body>
+</html>
