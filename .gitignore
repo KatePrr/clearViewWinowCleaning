@@ -1,3 +1,8 @@
 .idea/
 node_modules/
 npm-debug.log
+.DS_Store
+modules/
+public/images/
+public/styles/scss/
+routes/
